@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+</head>
+<body class="container">
+    <h1>Nova página inicial</h1>
+    <ul>
+        {% for a in atividades %}
+        <li>{{ a }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

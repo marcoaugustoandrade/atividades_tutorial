@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+
+    <h2 class="mt-4 mb-4">Minhas atividades complementares</h2>
+    {% if not atividades %}
+        <div class="alert alert-danger">Não existem atividades complementares cadastradas para este usuário</div>
+    {% else %}
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Data</th>
+                <th>CH</th>
+                <th>Deletar</th>
+                <th>Alterar</th>
+                <th>Detalhar</th>
+            </tr>
+            {% for a in atividades %}
+            <tr>
+                <td>{{ a.id }}</td>
+                <td>{{ a.nome }}</td>
+                <td>{{ a.tipo }}</td>
+                <td>{{ a.data }}</td>
+                <td>{{ a.carga_horaria }}</td>
+                <td><a href="/atividades/deletar/{{ a.id }}" class="btn btn-danger">Deletar</a></td>
+                <td><a href="/atividades/alterar/{{ a.id }}" class="btn btn-warning">Alterar</a></td>
+                <td><a href="/atividades/{{ a.id }}" class="btn btn-primary">Detalhar</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+{% endblock %}

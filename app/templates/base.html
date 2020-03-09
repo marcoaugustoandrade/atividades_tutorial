@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+</head>
+<body>
+    <div class="bg-success text-white pt-2 pb-2">
+        <h1 class="container">Atividades complementares</h1>
+    </div>
+    <div class="container">
+    {% block conteudo %} {% endblock %}
+    </div>
+</body>
+</html>
