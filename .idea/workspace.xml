@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2640353-2a4c-4b13-85a0-5b3ac6cf8269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/atividades.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/atividades.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/atividades_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/atividades_detalhe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/atividades_formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/atividades_formulario.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
